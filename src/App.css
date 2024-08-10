@@ -1,0 +1,11 @@
+.main {
+  height: 100vh;
+}
+
+.main .container {
+  height: 100%;
+}
+
+.main .container .row {
+  height: 100%;
+}

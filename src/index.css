@@ -1,0 +1,133 @@
+body{
+  background-color: #000;
+}
+
+body {
+  background-color: #000;
+  font-family: Poppins, sans-serif;
+  color: #fff;
+}
+
+h1 {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+hr {
+  border: 2px solid white;
+  opacity: 1;
+}
+
+
+
+.box {
+  height: 100px;
+  width: 100px;
+  /*padding: 3rem;*/
+}
+
+.box:hover {
+  cursor: pointer;
+}
+
+.box .row {
+  height: 100%;
+}
+
+/* First Row */
+
+.top-row .square-block:first-child {
+  border: 2px solid white;
+  border-left: none;
+  border-top: none;
+}
+
+.top-row .square-block:nth-child(2) {
+  border: 2px solid white;
+  border-top: none;
+}
+
+.top-row .square-block:last-child {
+  border: 2px solid white;
+  border-right: none;
+  border-top: none;
+}
+
+/* Middle Row */
+
+.middle-row .square-block:first-child {
+  border: 2px solid white;
+  border-left: none;
+}
+
+.middle-row .square-block:nth-child(2) {
+  border: 2px solid white;
+}
+
+.middle-row .square-block:last-child {
+  border: 2px solid white;
+  border-right: none;
+}
+
+/* Bottom Row */
+
+.bottom-row .square-block:first-child {
+  border: 2px solid white;
+  border-left: none;
+  border-bottom: none;
+}
+
+.bottom-row .square-block:nth-child(2) {
+  border: 2px solid white;
+  border-bottom: none;
+}
+
+.bottom-row .square-block:last-child {
+  border: 2px solid white;
+  border-right: none;
+  border-bottom: none;
+}
+
+/* .square-box{
+  transition: 0.5s ease;
+} */
+ .square-block{
+  padding: 1rem!important;
+ }
+
+.box:hover{
+  background: rgb(11, 11, 11);
+  transition: 1s ease-in-out;
+}
+
+.play-key {
+  color: white;
+  font-size: 50px;
+}
+
+.scoreboard h1 {
+  font-size: 20px;
+}
+
+.scoreboard h2 {
+  font-weight: 700;
+}
+
+span.score-count {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.game-button {
+  color: white;
+  letter-spacing: 2px;
+  border: 2px solid white;
+  border-radius: 0px!important;
+  background: none;
+  padding: 1rem;
+}
+
+.game-button:hover {
+  background: white;
+  color: black;
+}
